@@ -2,10 +2,10 @@
 #define MATRIX_H
 
 #include <vector>
-using namespace std;
 
 class Matrix {
-
+public:
+    static float determinant(const std::vector<std::vector<float>>& mat);
 };
 
 #endif

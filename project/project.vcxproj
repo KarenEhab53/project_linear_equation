@@ -127,15 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CramerSolver.cpp" />
     <ClCompile Include="Equation.cpp" />
     <ClCompile Include="LinnearSystem.cpp" />
     <ClCompile Include="MatrixSolver.cpp" />
+    <ClCompile Include="Parser.cpp" />
     <ClCompile Include="project.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CramerSolver.h" />
     <ClInclude Include="Equation.h" />
     <ClInclude Include="LinnearSystem.h" />
     <ClInclude Include="MatrixSolver.h" />
+    <ClInclude Include="Parser.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
